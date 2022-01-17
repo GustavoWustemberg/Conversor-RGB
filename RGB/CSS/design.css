@@ -31,18 +31,6 @@ label{
     padding: 78% 0% 14% 0%;
 }
 
-#valorG{
-    margin-top: 5px;
-    width: 30px;
-    height: 25px;
-    margin-left: 200px;
-    border-radius: 5px;
-    background: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    text-align: center;
-}
-
 #valorRGB{
     margin-top: 10px;
     width: 115px;
