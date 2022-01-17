@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor RGB</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="CSS/design.css">
+    <link rel="stylesheet" href="CSS/design2.css">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h2>Conversor RGB</h2>
+        </div>
+        <div>
+            <label for="red">Vermelho</label>
+            <div class="range">
+              <div class="field">
+                <div class="value left">0</div>
+                <input type="range" min="0" max="255" id="red" value="0" steps="1">
+                    <div class="value right">255</div>
+              </div>
+            </div>
+        </div>
+
+        <div>
+            <label for="green">Verde</label>
+            <div class="range">
+                <div class="field">
+                  <div class="value left">0</div>
+                  <input type="range" min="0" max="255" id="green" value="0" steps="1">
+                      <div class="value right">255</div>
+                </div>
+              </div>
+              
+        </div>
+        <div>
+            <label for="blue">Azul</label>
+            <div class="range">
+                <div class="field">
+                  <div class="value left">0</div>
+                  <input type="range" min="0" max="255" id="blue" value="0" steps="1">
+                      <div class="value right">255</div>
+                </div>
+        </div>
+
+        <div id="bloco"></div>
+        <input type="text" id="valorRGB" placeholder="Valor do RGB">
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
